@@ -90,3 +90,72 @@ img {
   margin: 0%;  
   width: 50%;
 } 
+
+.cards{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: row; /* Define a direção como linha (padrão) */
+    justify-content: space-around;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+#title-cards{
+    font-family: Limelight;
+    text-align:center;
+    align-items: center;
+    font-size:36px;
+    color:#064661B2;
+    margin-bottom:52px;
+}
+ 
+.card-preto{
+    background-color: #064661B2;
+    width: 357px;
+    font-family: Limelight;
+    height: 167px;
+    text-align: left;
+    align-items: left;
+    border-radius:10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #064661B2;
+   
+}
+ 
+.card-branco{
+    font-family: Limelight;
+    text-align: left;
+    align-items: left;
+    background-color: #99BEDF;
+    width: 357px;
+    height: 167px;
+    border-radius:10px;
+    border-width: 3px;
+    border-style:solid;
+    border-color:#064661B2;
+}
+ 
+.card-branco h2{      
+    font-size: 26px;
+    padding-top:20px;
+    padding-left:10px;
+}
+ 
+.card-preto p{
+    font-size: 26px;
+    padding-left:10px;
+    color:white;
+}
+ 
+.card-branco p{
+    font-size: 26px;
+    padding-left:10px;
+}
+ 
+.card-preto h2{
+    font-size: 26px;
+    padding-top:20px;
+    padding-left:10px;
+    color:white;
+}
