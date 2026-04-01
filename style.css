@@ -102,7 +102,7 @@ i {
 }
 
 .image {
-  padding-top: 11%;  
+  padding-top: 14%;  
   width: 100%;
   margin-right: 50px;
 } 
@@ -246,7 +246,7 @@ footer {
 }
 footer p {
     font-family: Poppins;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 100px; 
     margin: 0px;
     padding-top: 20px;
