@@ -16,7 +16,7 @@
     
 }
 
-h2  {
+.teste2   {
     color: #064661;
     font-size: 36px;
     font-weight: 400px;
@@ -75,7 +75,6 @@ img {
 
 .text p {
     width: 50%;
-    
 }
 
 
@@ -83,13 +82,14 @@ img {
   padding-top: 50px;  
   width: 100%;
 } 
-
+/* cards */
 .cards{
     display: flex; 
     flex-direction: row; 
     justify-content: space-around;
     width: 100%;
 }
+
 .container{
     width: 100%;
 }
@@ -98,10 +98,11 @@ img {
     text-align:center;
     align-items: center;
     font-size:36px;
-    color:#064661B2;
+    color:#064661B2; 
     margin-bottom:52px;
+    background-color: white;
 }
- 
+
 .card-preto{
     background-color: #064661B2;
     width: 357px;
@@ -113,9 +114,9 @@ img {
     border-width: 3px;
     border-style: solid;
     border-color: #064661B2;
-   
+    
 }
- 
+
 .card-branco{
     font-family: Limelight;
     text-align: left;
@@ -128,27 +129,29 @@ img {
     border-style:solid;
     border-color:#064661B2;
 }
- 
-.card-branco h2{      
+
+.card-branco h2{       
     font-size: 26px;
     padding-top:20px;
-    padding-left:10px;
+    padding-left:20px;
 }
- 
+
 .card-preto p{
     font-size: 26px;
     padding-left:10px;
     color:white;
+    font-family: Limelight;
 }
  
 .card-branco p{
     font-size: 26px;
     padding-left:10px;
+    font-family: Limelight;
 }
- 
+
 .card-preto h2{
     font-size: 26px;
     padding-top:20px;
-    padding-left:10px;
+    padding-left:20px;
     color:white;
 }
