@@ -35,28 +35,58 @@ p {
 }
 
 p2 {
-    margin-right: 100;
+    width: 50%;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-left: 72px;
+    margin-right: 100px;
     line-height: 30px;
 }
-body {
-    margin: 0;
-    padding: 0;
-}
 
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
 
 img {
     width: 100%;
     margin-top: 0;
     margin: 0;
     padding-top: 0;
+
 }
 
-#teste {
+#topo {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-#casa {
-    width: 50%;
-    justify-content: right;
+.hero {
+  padding-top: 0%;  
+  display: flex;
+  height: 100%;
+  margin-right: 0%;
 }
+
+.text {
+  font-size: 18px;  
+  width: 50%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+
+.text p {
+    width: 50%;
+    
+}
+
+
+.image {
+  margin: 0%;  
+  width: 50%;
+} 
