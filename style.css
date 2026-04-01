@@ -1,92 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h1 {
-    background-color: #064661;
+body{
+    text-align:center;
+    align-items: center;
+}
+
+.cards{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: row; /* Define a direção como linha (padrão) */
+    justify-content: space-around;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+#title-cards{
     font-family: Limelight;
-    color: #ffff;
-    font-size: 40px;
-    padding-left: 72px;
-    height: 54px;
-    font-weight: normal;
-    padding-top: 42px;
-    padding-bottom: 42px;
-    margin: 0px;
-    width: 100%;
+    text-align:center;
+    align-items: center;
+    font-size:36px;
+    color:#064661B2; 
+    margin-bottom:52px;
+}
+
+.card-preto{
+    background-color: #064661B2;
+    width: 357px;
+    font-family: Limelight;
+    height: 167px;
+    text-align: left;
+    align-items: left;
+    border-radius:10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #064661B2;
     
 }
 
-h2  {
-    color: #064661;
-    font-size: 36px;
-    font-weight: 400px;
-    width: 484px;
-    height: 54px;
-    padding-top: 52px;
-    padding-left: 72px;
+.card-branco{
+    font-family: Limelight;
+    text-align: left;
+    align-items: left;
+    background-color: #99BEDF;
+    width: 357px;
+    height: 167px;
+    border-radius:10px;
+    border-width: 3px;
+    border-style:solid;
+    border-color:#064661B2;
 }
 
-p {
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400px;
-    line-height: 30px;
-    padding-left: 72px;
+.card-branco h2{       
+    font-size: 26px;
+    padding-top:20px;
+    padding-left:10px;
 }
 
-p2 {
-    width: 50%;
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 400px;
-    padding-left: 72px;
-    margin-right: 100px;
-    line-height: 30px;
+.card-preto p{
+    font-size: 26px;
+    padding-left:10px;
+    color:white;
 }
 
-body {
-
-    margin: 0px;
-    padding: 0px;
+.card-branco p{
+    font-size: 26px;
+    padding-left:10px;
 }
 
-img {
-    width: 100%;
-    margin-top: 0;
-    margin: 0;
-    padding-top: 0;
-
+.card-preto h2{
+    font-size: 26px;
+    padding-top:20px;
+    padding-left:10px;
+    color:white;
 }
-
-#topo {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.hero {
-  padding-top: 0%;  
-  display: flex;
-  height: 100%;
-  margin-right: 0%;
-}
-
-.text {
-  font-size: 18px;  
-  width: 50%;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 30px;
-}
-
-.text p {
-    width: 50%;
-    
-}
-
-
-.image {
-  margin: 0%;  
-  width: 50%;
-} 
