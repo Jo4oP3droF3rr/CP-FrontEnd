@@ -180,3 +180,41 @@ i {
     padding-left:20px;
     color:white;
 }
+
+.Galeria {
+
+}
+
+.imagens{
+    display:flex;
+    margin-left:72px;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 72px;
+}    
+.imagens img{
+    height:230px;
+    width: 230px;
+    border-radius: 35px;
+}
+
+#imagem-1{
+    height:190px;
+    width: 280px;
+    margin-right:20px;
+}
+#imagem-2{
+    height:190px;
+    width: 280px;
+    margin-right:20px;
+}
+#imagem-3{
+    height:190px;
+    width: 280px;
+    margin-right:20px;
+}
+#imagem-4{
+    height:190px;
+    width: 280px;
+    margin-right: 72px;
+}
